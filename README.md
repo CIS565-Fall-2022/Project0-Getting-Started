@@ -3,12 +3,32 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Constance Wang
+  * [LinkedIn](https://www.linkedin.com/in/conswang/)
+* Tested on AORUS 15P XD laptop with specs:
+  * Windows 11 22000.856
+  * 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz   2.30 GHz
+  * NVIDIA GeForce RTX 3070 Laptop GPU
 
-### (TODO: Your README)
+### Screenshots
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+Cuda window screenshot  
+![](images/cuda_window_screenshot.png)
 
+Nsight profiling  
+![](images/nsight_profiling.png)
+
+Autos and warp info  
+![](images/autos_and_warp_info.png)
+
+Webgl supported  
+![](images/webgl_supported.png)
+
+Dxr supported  
+![](images/dxr_support_triangle.png)
+
+Fallback Dxr supported  
+![](images/fallback_dxr_support_triangle.png)
+
+Edit triangle color working  
+![](images/green_triangle.png)

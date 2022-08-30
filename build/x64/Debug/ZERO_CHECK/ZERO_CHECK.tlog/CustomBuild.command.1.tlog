@@ -1,0 +1,10 @@
+^D:\UPENN\CIS565\HOMEWORKS\HW0\PROJECT0-GETTING-STARTED\BUILD\CMAKEFILES\8A617046CDFC9F9CAE45C82DE807C1E6\GENERATE.STAMP.RULE
+setlocal
+D:\Programs\Cmake\bin\cmake.exe -SD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/cuda-getting-started -BD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/cis565_getting_started.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

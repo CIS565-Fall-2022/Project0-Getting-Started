@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CE4A593F-7479-34D2-88D3-999BAD66DDC9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\external\include;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\external\include;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\external\include;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\external\include;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\8a617046cdfc9f9cae45c82de807c1e6\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Programs\Cmake\bin\cmake.exe -SD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/cuda-getting-started -BD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/cis565_getting_started.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA\run_nvcc.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA\select_compute_arch.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindOpenGL.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeCCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeCXXCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeRCCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeSystem.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\CMakeLists.txt;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\CUDAComputesList.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\FindGLEW.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\FindGLFW.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Programs\Cmake\bin\cmake.exe -SD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/cuda-getting-started -BD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/cis565_getting_started.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA\run_nvcc.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA\select_compute_arch.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindOpenGL.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeCCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeCXXCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeRCCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeSystem.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\CMakeLists.txt;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\CUDAComputesList.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\FindGLEW.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\FindGLFW.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Programs\Cmake\bin\cmake.exe -SD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/cuda-getting-started -BD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/cis565_getting_started.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA\run_nvcc.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA\select_compute_arch.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindOpenGL.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeCCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeCXXCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeRCCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeSystem.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\CMakeLists.txt;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\CUDAComputesList.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\FindGLEW.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\FindGLFW.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Programs\Cmake\bin\cmake.exe -SD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/cuda-getting-started -BD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/cis565_getting_started.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA\run_nvcc.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindCUDA\select_compute_arch.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindOpenGL.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\Programs\Cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeCCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeCXXCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeRCCompiler.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\3.21.3\CMakeSystem.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\CMakeLists.txt;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\CUDAComputesList.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\FindGLEW.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\FindGLFW.cmake;D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

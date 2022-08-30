@@ -156,6 +156,10 @@ void DeviceResources::CreateDeviceResources()
         {
             D3D12_MESSAGE_ID_MAP_INVALID_NULLRANGE,
             D3D12_MESSAGE_ID_UNMAP_INVALID_NULLRANGE,
+
+            // Here modified to make this program runnable on Windows 11
+            // See https://stackoverflow.com/questions/69805245/directx-12-application-is-crashing-in-windows-11
+
             // Workarounds for debug layer issues on hybrid-graphics systems
             D3D12_MESSAGE_ID_EXECUTECOMMANDLISTS_WRONGSWAPCHAINBUFFERREFERENCE,
             D3D12_MESSAGE_ID_RESOURCE_BARRIER_MISMATCHING_COMMAND_LIST_TYPE,

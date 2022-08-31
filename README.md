@@ -18,6 +18,13 @@ Project 0 Results
 ### 4. WebGL Results
 ![](images/webgl.png)
 ### 5. DirectX
+Unmodified Triangle with DXR
 ![](images/tri.png)
+Modified triangle with DXR
 ![](images/triSolid.png)
 
+Project 0 Comments
+=====================
+On windows 11 I experienced an issue where switching to NVIDIA GPU will cause the Direct X triangle application to hit an unhandled exception error. Chang Liu scouted these helpful links for WAR:
+https://stackoverflow.com/questions/69805245/directx-12-application-is-crashing-in-windows-11
+https://github.com/walbourn/directx-vs-templates/commit/2b34dcf9ac764153699058cdc9d4dbc4e837224c

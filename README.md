@@ -10,8 +10,14 @@ Project 0 Getting Started
 Project 0 Results
 ====================
 ### 1. Modify the CUDA Project and Take a Screenshot
+![](images/DiResult2.png)
 ### 2. NVIDIA NSight System Analysis
+![](images/NSight.png)
 ### 3. Nsight Debugging
+![](images/warp2.png)
 ### 4. WebGL Results
+![](images/webgl.png)
 ### 5. DirectX
+![](images/tri.png)
+![](images/triSolid.png)
 

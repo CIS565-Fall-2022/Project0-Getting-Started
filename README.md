@@ -15,8 +15,8 @@ Project 0 Getting Started
 ## Part 3.1.2. Analyze
 ![3.1.2](images/2.jpg)
 ## Part 3.1.3 NSight Debugging
-![3.1.3](images/5.png)
+![3.1.3](images/5.jpg)
 ## Part 3.2 WebGL Compatibility
-![3.2](images/3.png)
+![3.2](images/3.jpg)
 ## Part 3.3 DXR Support
-![3.3](images/4.png)
+![3.3](images/4.jpg)

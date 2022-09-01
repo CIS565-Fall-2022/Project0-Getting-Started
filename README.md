@@ -12,3 +12,9 @@ Project 0 Getting Started
 Include screenshots, analysis, etc. (Remember, this is public, so don't put
 anything here that you don't want to share with the world.)
 
+Part 3.1: CUDA
+
+GTX 1650 compute capibility: 7.5
+
+
+

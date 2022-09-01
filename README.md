@@ -12,17 +12,17 @@ Part 3.1: CUDA
 GTX 1650 compute capibility: 7.5
 
 Part 3.1.1: Modify the CUDA Project
-![](images/Part 3.1.1 change name.png)
+![](/images/Part-3.1.1changename.png)
 
 Part 3.1.2: Analyze
-![](images/Part 3.1.2 Analyze.png)
+![](/images/Part-3.1.2Analyze.png)
 
 Part 3.1.3: Nsight Debugging
-![](images/Part 3.1.3.png)
+![](/images/Part-3.1.3.png)
 
 Part 3.2: WebGL
-![](images/Part 3.2 WebGL 1.png)
-![](images/Part 3.2 WebGL2.png)
+![](/images/Part-3.2WebGL1.png)
+![](/images/Part-3.2WebGL2.png)
 
 Part 3.3: DXR
-![](images/Part 4 DRX.png)
+![](/images/Part-4DRX.png)

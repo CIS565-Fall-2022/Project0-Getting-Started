@@ -3,12 +3,9 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Alex Fu
+  * [LinkedIn](https://www.linkedin.com/in/alex-fu-b47b67238/), [twitter](https://twitter.com/AlexFu8304), etc.
+* Tested on: Windows 10, i7-10750H @ 2.60GHz, 16GB, GTX 3060 6GB
 
-### (TODO: Your README)
-
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+I am strongly interested in real-time ray traycing and virtual reality. I am looking forward to enrolling at a game company in the future.
 

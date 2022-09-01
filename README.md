@@ -3,9 +3,9 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Yilin Liu
+  * [LinkedIn](https://www.linkedin.com/in/yilin-liu-9538ba1a5/), [personal website](https://yilin.games/)
+* Tested on: Windows 10, i7-10750H @ 2.59GHz 32GB, GeForce RTX 2070 with Max-Q 8192MB (Personal Laptop) 
 
 ### (TODO: Your README)
 

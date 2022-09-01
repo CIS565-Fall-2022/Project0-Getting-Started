@@ -9,7 +9,7 @@ Project 0 Getting Started
 
 ### Project 0 Results
 
-#### 1. CUDA Capability
+#### 1. CUDA Capability 7.5
 
 ![capability](images/capability.png)
 
@@ -33,4 +33,4 @@ Project 0 Getting Started
 
 ![fl-dxr-modified](images/fl-dxr-modified.png)
 
-Only supports FL-DXR and DXR. 
+The machine only supports FL-DXR and DXR. 

@@ -3,9 +3,8 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Yilin Li
+* Tested on: (TODO) Windows 10, i7-12700 @ 2.10GHz 32GB, NVIDIA T1000  4096MB (CETS Virtual Lab)
 
 ### (TODO: Your README)
 

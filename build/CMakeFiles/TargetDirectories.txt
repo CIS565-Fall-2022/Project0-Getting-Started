@@ -1,0 +1,3 @@
+C:/Users/megan/Documents/school/fall22/cis565/project0/build/CMakeFiles/cis565_getting_started.dir
+C:/Users/megan/Documents/school/fall22/cis565/project0/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/megan/Documents/school/fall22/cis565/project0/build/CMakeFiles/ZERO_CHECK.dir

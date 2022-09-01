@@ -11,26 +11,26 @@ Project 0 Getting Started
 
 #### 1. CUDA Capability
 
-![capability](C:\Users\14398\Documents\Github Desktop\Project0-Getting-Started\images\capability.png)
+![capability](images\capability.png)
 
 #### 2. NVIDIA NSight System Analysis
 
-![report](C:\Users\14398\Documents\Github Desktop\Project0-Getting-Started\images\report.png)
+![report](images\report.png)
 
 #### 3. NVIDIA NSight Debugger
 
-![debugger](C:\Users\14398\Documents\Github Desktop\Project0-Getting-Started\images\debugger.png)
+![debugger](images\debugger.png)
 
 #### 4. WebGL Report
 
-![report](C:\Users\14398\Documents\Github Desktop\Project0-Getting-Started\images\report.png)
+![report](images\report.png)
 
 #### 5. DXR
 
-![dxr-modified](C:\Users\14398\Documents\Github Desktop\Project0-Getting-Started\images\dxr-modified.png)
+![dxr-modified](images\dxr-modified.png)
 
 #### 6. FL-DXR
 
-![fl-dxr-modified](C:\Users\14398\Documents\Github Desktop\Project0-Getting-Started\images\fl-dxr-modified.png)
+![fl-dxr-modified](images\fl-dxr-modified.png)
 
 Only supports FL-DXR and DXR. 

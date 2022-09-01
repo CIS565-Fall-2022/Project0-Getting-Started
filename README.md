@@ -3,9 +3,10 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+Jiajun Li
+Linkedin: https://www.linkedin.com/in/jiajun-li-5063a4217/
+Tested on: Windows 10, i7-12700 @ 2.10GHz, 32GB, RTX3080 12GB
+CUDA Compute Capability: 8.6
 
 ### (TODO: Your README)
 

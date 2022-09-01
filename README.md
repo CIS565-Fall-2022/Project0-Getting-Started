@@ -14,10 +14,10 @@ anything here that you don't want to share with the world.)
 
 ![Screenshot-1](images/sh_1.PNG)
 
-![Screenshot-2](images/sh_2.png)
+![Screenshot-2](images/sh_2.PNG)
 
-![Screenshot-3](images/sh_3.png)
+![Screenshot-3](images/sh_3.PNG)
 
-![Screenshot-4](images/sh_4.png)
+![Screenshot-4](images/sh_4.PNG)
 
-![Screenshot-5](images/sh_5.png)
+![Screenshot-5](images/sh_5.PNG)

@@ -24,7 +24,13 @@ Project 0 Getting Started
 
 ## WebGL
 
-![My machine's webgl compatibility](images/WebGL-Report.png)
+### WebGL 1
+
+![My machine's webgl 1 compatibility](images/WebGL-Report.png)
+
+### WebGL 2
+
+![My machine's webgl 2 compatibility](images/WebGL2-Report.png)
 
 ## DXR
 

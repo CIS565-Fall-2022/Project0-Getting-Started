@@ -21,3 +21,6 @@ The Compute Capability of NVIDIA T1000 is 8.6.
 
 ### Part 3.1.3
 ![](images/3.1.3.jpg)
+
+### Part 3.2 
+![](images/3.2.jpg)

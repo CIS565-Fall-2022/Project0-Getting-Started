@@ -5,7 +5,11 @@ Project 0 Getting Started
 
 * Yu-Chia Shen
   * [LinkedIn](https://www.linkedin.com/in/ycshen0831/)
-* Tested on: Windows 10, i5-11400 @ 4.3GHz 16GB, GTX 3060 12GB
+* Tested on: Windows 10, i5-11400F @ 4.3GHz 16GB, GTX 3060 12GB (personal)
+
+#### CUDA Compatiblity 
+* GeForce RTX 3060
+* GPU Compute Capability 8.6
 
 ### Part 1: CUDA
 * Modify the CUDA Project

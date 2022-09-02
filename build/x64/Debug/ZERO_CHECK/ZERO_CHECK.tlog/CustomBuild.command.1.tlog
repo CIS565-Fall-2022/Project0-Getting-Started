@@ -1,0 +1,10 @@
+^C:\USERS\JIAJUNLI\ONEDRIVE\CGGT\CIS-565\PROJECT0-GETTING-STARTED\BUILD\CMAKEFILES\19DAEB85BBD69032A882F622C2DC7893\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/JiajunLi/OneDrive/CGGT/CIS-565/Project0-Getting-Started/cuda-getting-started -BC:/Users/JiajunLi/OneDrive/CGGT/CIS-565/Project0-Getting-Started/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/JiajunLi/OneDrive/CGGT/CIS-565/Project0-Getting-Started/build/cis565_getting_started.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

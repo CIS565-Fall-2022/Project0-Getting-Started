@@ -7,10 +7,6 @@ Project 0 Getting Started
 * [LinkedIn](https://www.linkedin.com/in/david-li-15b83817b/)
 * Tested on: (TODO) Windows 10, Intel(R) Core(TM) i9-10980HK CPU @ 2.40GHz 32Gb, GTX 2070 Super (Personal Computer)
 
-### (TODO: Your README)
-
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
 
 GPU Capability: 7.5
 

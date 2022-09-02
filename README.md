@@ -30,4 +30,4 @@ Results
 
 The color is (0.1, 0.8, 0.1).
 
-![](images/image4.png)
+![](images/image5.png)

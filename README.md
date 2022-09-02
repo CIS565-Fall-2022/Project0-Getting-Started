@@ -10,9 +10,9 @@ Project 0 Getting Started
 * Tested on: Windows 10 Home, i7-11800H @ 2.3GHz, 16.0GB, NVIDIA GeForce RTX 3060 Laptop GPU
 
 ### Images
-![](images/Part1 Screenshot.png)
+![](images/Part1%20Screenshot.png)
 
-![](images/Part2 Screenshot.png)
+![](images/Part2%20Screenshot.png)
 
 ![](images/Part3.png)
 

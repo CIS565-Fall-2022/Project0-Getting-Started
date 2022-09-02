@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\chuzh\Study\ESE565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(94,9): warning C4996: 'cudaGLRegisterBufferObject': 被声明为已否决
+C:\Users\chuzh\Study\ESE565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(135,5): warning C4996: 'cudaGLSetGLDevice': 被声明为已否决
+C:\Users\chuzh\Study\ESE565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(169,5): warning C4996: 'cudaGLMapBufferObject': 被声明为已否决
+C:\Users\chuzh\Study\ESE565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(175,5): warning C4996: 'cudaGLUnmapBufferObject': 被声明为已否决
+C:\Users\chuzh\Study\ESE565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(224,9): warning C4996: 'cudaGLUnregisterBufferObject': 被声明为已否决
+  cis565_getting_started.vcxproj -> C:\Users\chuzh\Study\ESE565\Project0-Getting-Started\build\bin\Debug\cis565_getting_started.exe

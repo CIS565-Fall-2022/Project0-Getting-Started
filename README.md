@@ -24,3 +24,8 @@ The Compute Capability of NVIDIA T1000 is 8.6.
 
 ### Part 3.2 
 ![](images/3.2.jpg)
+
+### Part 3.3 
+The laptop has DXR support but the following error pops out when I ran the solution. 
+
+`'Unhandled exception at 0x00007FFA3467474C (KernelBase.dll) in D3D12RaytracingHelloWorld.exe: 0x0000087A (parameters: 0x0000000000000001, 0x0000005DBE6FC280, 0x0000005DBE6FE060).

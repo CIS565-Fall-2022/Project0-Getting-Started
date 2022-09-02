@@ -14,15 +14,15 @@ Project 0 Getting Started
 
 ![](images/Part2 Screenshot.png)
 
-![](images/Part3)
+![](images/Part3.png)
 
-![](images/Part4)
+![](images/Part4.png)
 
-![](images/Part5)
+![](images/Part5.png)
 
-![](images/Part5.1)
+![](images/Part5.1.png)
 
-![](images/Part5.2)
+![](images/Part5.2.png)
 
 Include screenshots, analysis, etc. (Remember, this is public, so don't put
 anything here that you don't want to share with the world.)

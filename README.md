@@ -42,3 +42,5 @@ FOREACH(VER 32 35 37 50 52 53 60 61 62 70 72 75 80 86)
 ### CUDA
 
 ![](images/3-1-1.png)
+
+![](images/3-1-2.png)

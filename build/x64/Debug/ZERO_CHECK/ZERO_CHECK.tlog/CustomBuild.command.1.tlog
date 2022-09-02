@@ -1,0 +1,10 @@
+^C:\DEV\CIS565\HW0\BUILD\CMAKEFILES\5FD7EE79FB888A05B7577373E546022D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/dev/CIS565/hw0/cuda-getting-started -BC:/dev/CIS565/hw0/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/CIS565/hw0/build/cis565_getting_started.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

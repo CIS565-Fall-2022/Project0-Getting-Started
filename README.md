@@ -3,9 +3,9 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
+* Shineng Tang
   * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Tested on: Windows 11, i9-10900k @5.1GHz 32GB, RTX 3090 24GB
 
 ### (TODO: Your README)
 

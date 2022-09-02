@@ -7,17 +7,35 @@ Project 0 Getting Started
   * [LinkedIn](https://www.linkedin.com/feed/), etc.
 * Tested on: Windows 10, i5-8300H @ 2.30GHz 16GB, Quadro P600 4026MB (personal computer)
 
-### (TODO: Your README)
+**My CUDA compatible GPU is Quadro P600 with compute Capability of 6.1**
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+<!-- ![Screenshot-1](images/sh_1.PNG) -->
+**Part 3.1.1: Modify the CUDA Project and Take a Screenshot**
+<img src="images/sh_1.PNG" width="500" />
+&nbsp;<br/>
 
-![Screenshot-1](images/sh_1.PNG)
 
-![Screenshot-2](images/sh_2.PNG)
+**Part 3.1.2: Analyze in Nsight**
+<!-- ![Screenshot-2](images/sh_2.PNG) -->
+<img src="images/sh_2.PNG" width="500" />
+&nbsp;<br/>
 
-![Screenshot-3](images/sh_3.PNG)
 
-![Screenshot-4](images/sh_4.PNG)
 
-![Screenshot-5](images/sh_5.PNG)
+**Part 3.1.3: Nsight Debugging**
+<!-- ![Screenshot-3](images/sh_3.PNG) -->
+<img src="images/sh_3.PNG" width="500" />
+&nbsp;<br/>
+
+
+**Part 3.2: WebGL**
+<!-- ![Screenshot-4](images/sh_4.PNG) -->
+<img src="images/sh_4.PNG" width="500" />
+&nbsp;<br/>
+
+**Part 3.3: DXR**
+<!-- ![Screenshot-5](images/sh_5.PNG) -->
+<img src="images/sh_5.PNG" width="500" />
+&nbsp;<br/>
+
+

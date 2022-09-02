@@ -1,0 +1,10 @@
+^D:\PENN_2022_FALL\CIS5650_GPU_ARCHITECTURE_PROGRAMMING\PROJECT0-GETTING-STARTED\BUILD\CMAKEFILES\93BEB78D5BA5B274C47AD7CC9F8D6FCF\GENERATE.STAMP.RULE
+setlocal
+D:\cmake-3.24.1-windows-x86_64\cmake-3.24.1-windows-x86_64\bin\cmake.exe -SD:/Penn_2022_fall/CIS5650_GPU_architecture_programming/Project0-Getting-Started/cuda-getting-started -BD:/Penn_2022_fall/CIS5650_GPU_architecture_programming/Project0-Getting-Started/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Penn_2022_fall/CIS5650_GPU_architecture_programming/Project0-Getting-Started/build/cis565_getting_started.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

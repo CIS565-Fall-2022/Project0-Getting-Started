@@ -27,7 +27,7 @@ Project 0 Getting Started
 ![](./images/Autos.png)
 
 ### Part 2: WebGL
-* WebGL Compatibility
+* WebGL Compatibility 
 
 ![](./images/WebGL.png)
 

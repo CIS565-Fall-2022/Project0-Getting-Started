@@ -12,7 +12,7 @@ Project 0 Getting Started
 
 ### 1.1 CUDA Compatibility
 
-![My modified CUDA program](images/CUDA.png)
+![My modified CUDA program](images/cuda.png)
 
 ### 1.2 Nsight Timeline
 

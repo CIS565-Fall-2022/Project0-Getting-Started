@@ -9,17 +9,17 @@ Project 0 Getting Started
 
 ### 
 ## Part 3.1.1
-![](images/Screenshot)
+![](images/Screenshot.png)
 
 ## Part 3.1.2
-![](images/Screenshot2)
+![](images/Screenshot2.png)
 
 ## Part 3.1.3
-![](images/Screenshot3)
+![](images/Screenshot3.png)
 
 ## Part 3.2
-![](images/Screenshot4)
+![](images/Screenshot4.png)
 
 ## Part 3.3
-![](images/Screenshot5)
+![](images/Screenshot5.png)
 

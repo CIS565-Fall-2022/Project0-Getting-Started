@@ -3,12 +3,23 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Tom Donnelly
+  * [LinkedIn]https://www.linkedin.com/in/the-tom-donnelly/
+* Tested on: Windows 11, AMD Ryzen 9 5900X, NVIDIA GeForce RTX 3070 (Personal Desktop)
 
-### (TODO: Your README)
-sm: 8.6
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+
+### (README)
+3.1
+Compute Capability sm: 8.6
+3.1.1
+![](images/blocks.png)
+3.1.2
+![](images/Timeline.png)
+3.1.3
+![](images/warp-info.png)
+3.2
+![](images/webgl1.png)
+![](images/webgl2.png)
+3,3
+![](images/triangle.png)
 

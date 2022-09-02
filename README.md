@@ -25,6 +25,3 @@ Project 0 Getting Started
 ## Part 3.3
 ![](images/part3.3.PNG)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
-

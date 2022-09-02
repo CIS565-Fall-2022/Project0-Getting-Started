@@ -11,6 +11,7 @@ Project 0 Getting Started
 ### README
 * GPU : NVIDIA Quadro P3200
 * Compute ability: 6.1
+
 ![CUDA Test Image](images/Hanlin-CUDATest.JPG)
 
 * Nsight:

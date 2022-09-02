@@ -15,9 +15,13 @@ Project 0 Getting Started
 
 ![CUDA Test Image](images/Hanlin-CUDATest.JPG)
 
-#### Nsight:
+#### Nsight Analyse:
 
 ![Nsight Test Image:](images/Nsight.JPG)
+
+#### Nsight Debug:
+
+![Nsight Debug Image](images/NsightDebug.png)
 
 #### WebGL:
 

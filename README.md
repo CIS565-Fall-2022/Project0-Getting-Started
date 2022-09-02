@@ -11,7 +11,15 @@ Project 0 Getting Started
 ### README
 * GPU : NVIDIA Quadro P3200
 * Compute ability: 6.1
+![CUDA Test Image](images/Hanlin-CUDATest.JPG)
 
+* Nsight:
+
+![Nsight Test Image:](images/Nsight.JPG)
+
+* WebGL:
+
+![WebGL Test Image](images/webGL.JPG)
 Include screenshots, analysis, etc. (Remember, this is public, so don't put
 anything here that you don't want to share with the world.)
 

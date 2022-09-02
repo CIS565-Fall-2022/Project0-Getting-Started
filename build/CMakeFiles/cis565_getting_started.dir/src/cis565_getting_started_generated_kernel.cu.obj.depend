@@ -105,7 +105,7 @@ SET(CUDA_NVCC_DEPEND
  "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include/vector_functions.h"
  "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include/vector_functions.hpp"
  "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include/vector_types.h"
- "C:/Users/65717/Desktop/CIS 565/Project0-Getting-Started/cuda-getting-started/src/kernel.cu"
- "C:/Users/65717/Desktop/CIS 565/Project0-Getting-Started/cuda-getting-started/src/kernel.h"
+ "C:/Users/65717/Desktop/CIS565/Project0-Getting-Started/cuda-getting-started/src/kernel.cu"
+ "C:/Users/65717/Desktop/CIS565/Project0-Getting-Started/cuda-getting-started/src/kernel.h"
 )
 

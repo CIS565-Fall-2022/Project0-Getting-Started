@@ -58,18 +58,18 @@ endif()
 
 # Set these up as variables to make reading the generated file easier
 set(CMAKE_COMMAND "C:/Users/65717/Desktop/cmake/cmake-3.24.1-windows-x86_64/bin/cmake.exe") # path
-set(source_file "C:/Users/65717/Desktop/CIS 565/Project0-Getting-Started/cuda-getting-started/src/kernel.cu") # path
-set(NVCC_generated_dependency_file "C:/Users/65717/Desktop/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend") # path
-set(cmake_dependency_file "C:/Users/65717/Desktop/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend") # path
+set(source_file "C:/Users/65717/Desktop/CIS565/Project0-Getting-Started/cuda-getting-started/src/kernel.cu") # path
+set(NVCC_generated_dependency_file "C:/Users/65717/Desktop/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend") # path
+set(cmake_dependency_file "C:/Users/65717/Desktop/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend") # path
 set(CUDA_make2cmake "C:/Users/65717/Desktop/cmake/cmake-3.24.1-windows-x86_64/share/cmake-3.24/Modules/FindCUDA/make2cmake.cmake") # path
 set(CUDA_parse_cubin "C:/Users/65717/Desktop/cmake/cmake-3.24.1-windows-x86_64/share/cmake-3.24/Modules/FindCUDA/parse_cubin.cmake") # path
 set(build_cubin OFF) # bool
 set(CUDA_HOST_COMPILER "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe") # path
 # We won't actually use these variables for now, but we need to set this, in
 # order to force this file to be run again if it changes.
-set(generated_file_path "C:/Users/65717/Desktop/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)") # path
-set(generated_file_internal "C:/Users/65717/Desktop/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj") # path
-set(generated_cubin_file_internal "C:/Users/65717/Desktop/CIS 565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj.cubin.txt") # path
+set(generated_file_path "C:/Users/65717/Desktop/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)") # path
+set(generated_file_internal "C:/Users/65717/Desktop/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj") # path
+set(generated_cubin_file_internal "C:/Users/65717/Desktop/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj.cubin.txt") # path
 
 set(CUDA_NVCC_EXECUTABLE "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin/nvcc.exe") # path
 set(CUDA_NVCC_FLAGS -gencode arch=compute_61,code=sm_61 ;; ) # list
@@ -79,7 +79,7 @@ set(CUDA_NVCC_FLAGS_RELEASE  ; )
 set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
 set(CUDA_NVCC_FLAGS_RELWITHDEBINFO  ; )
 set(nvcc_flags -m64) # list
-set(CUDA_NVCC_INCLUDE_DIRS [==[C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include;C:/Users/65717/Desktop/CIS 565/Project0-Getting-Started/cuda-getting-started/external/include;C:/Users/65717/Desktop/CIS 565/Project0-Getting-Started/cuda-getting-started/external/include;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include]==]) # list (needs to be in lua quotes to address backslashes)
+set(CUDA_NVCC_INCLUDE_DIRS [==[C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include;C:/Users/65717/Desktop/CIS565/Project0-Getting-Started/cuda-getting-started/external/include;C:/Users/65717/Desktop/CIS565/Project0-Getting-Started/cuda-getting-started/external/include;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include]==]) # list (needs to be in lua quotes to address backslashes)
 string(REPLACE "\\" "/" CUDA_NVCC_INCLUDE_DIRS "${CUDA_NVCC_INCLUDE_DIRS}")
 set(CUDA_NVCC_COMPILE_DEFINITIONS [==[CUDA_COMPUTE_61;GLEW_STATIC]==]) # list (needs to be in lua quotes see #16510 ).
 set(format_flag "-c") # string

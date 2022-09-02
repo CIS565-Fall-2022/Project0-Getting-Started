@@ -27,11 +27,11 @@ Project 0 Getting Started
 ![](./images/Autos.png)
 
 ### Part 2: WebGL
-* WebGL Compatibility 
+* WebGL Compatibility
 
 ![](./images/WebGL.png)
 
 ### Part 3: DXR Compatibility
 * Modified Trangle (DXR Support)
 
-![](./images/DXR.png)
+![](./images/DXR.png) 

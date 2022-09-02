@@ -11,11 +11,17 @@ Project 0 Getting Started
 
 ### Images
 ![](images/Part1 Screenshot.png)
+
 ![](images/Part2 Screenshot.png)
+
 ![](images/Part3)
+
 ![](images/Part4)
+
 ![](images/Part5)
+
 ![](images/Part5.1)
+
 ![](images/Part5.2)
 
 Include screenshots, analysis, etc. (Remember, this is public, so don't put

@@ -5,7 +5,7 @@ Project 0 Getting Started
 
 * Shineng Tang
   * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: Windows 11, i9-10900k @5.1GHz 32GB, RTX 3090 24GB
+* Tested on: Windows 11, i9-10900k @3.7GHz 32GB, RTX 3090 24GB
 
 ### (TODO: Your README)
 

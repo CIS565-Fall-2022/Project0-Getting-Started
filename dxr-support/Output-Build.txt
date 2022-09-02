@@ -1,0 +1,44 @@
+﻿1>------ Rebuild All started: Project: FallbackLayer, Configuration: Debug x64 ------
+1>AccelerationStructureBuilderFactory.cpp
+1>AccelerationStructureValidator.cpp
+1>BitonicSort.cpp
+1>BVHTraversalShaderBuilder.cpp
+1>BVHValidator.cpp
+1>ConstructAABBPass.cpp
+1>ConstructHierarchyPass.cpp
+1>CpuBVH2Builder.cpp
+1>DxbcParser.cpp
+1>FallbackDebug.cpp
+1>GpuBVH2Copy.cpp
+1>LoadInstancesPass.cpp
+1>LoadPrimitivesPass.cpp
+1>PostBuildInfoQuery.cpp
+1>StateObjectProcessing.cpp
+1>TreeletReorder.cpp
+1>UberShaderRayTracingProgram.cpp
+1>DxilShaderPatcher.cpp
+1>FallbackLayer.cpp
+1>GpuBVH2Builder.cpp
+1>Generating Code...
+1>Compiling...
+1>MortonCodesCalculator.cpp
+1>pch.cpp
+1>D3D12RaytracingFallback.cpp
+1>RayTracingProgramFactory.cpp
+1>RearrangeElementsPass.cpp
+1>SceneAABBCalculator.cpp
+1>Generating Code...
+1>FallbackLayer.vcxproj -> D:\CIS565\Project0-Getting-Started-main\dxr-support\FallbackLayer_Build\x64\Debug\Output\FallbackLayer\FallbackLayer.lib
+2>------ Rebuild All started: Project: D3D12RaytracingHelloWorld, Configuration: Debug x64 ------
+2>stdafx.cpp
+2>DeviceResources.cpp
+2>Win32Application.cpp
+2>D3D12RaytracingHelloWorld.cpp
+2>DXSample.cpp
+2>Main.cpp
+2>Generating Code...
+2>D3D12RaytracingHelloWorld.vcxproj -> D:\CIS565\Project0-Getting-Started-main\dxr-support\src\D3D12RaytracingHelloWorld\bin\x64\Debug\D3D12RaytracingHelloWorld.exe
+2>Sideloading DXR Fallback Compiler.
+2>"D:\CIS565\Project0-Getting-Started-main\dxr-support\src\D3D12RaytracingHelloWorld\bin\x64\Debug\"
+2>        1 file(s) copied.
+========== Rebuild All: 2 succeeded, 0 failed, 0 skipped ==========

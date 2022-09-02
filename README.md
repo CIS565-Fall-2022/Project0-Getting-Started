@@ -3,12 +3,35 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Yu-Chia Shen
+  * [LinkedIn](https://www.linkedin.com/in/ycshen0831/)
+* Tested on: Windows 10, i5-11400 @ 4.3GHz 16GB, GTX 3060 12GB
 
-### (TODO: Your README)
+### Part 1: CUDA
+* Modify the CUDA Project
+  * Change Name
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+![](./images/name.png)
 
+* Nsight Systems Analysis
+  * Timeline Report
+
+![](./images/Timeline.png)
+
+* Nsight Debugging
+  * Autos & Warp Info
+    * Index: 1206
+    * Block ID: (x = 25, y = 0, z = 0)
+    * Thread ID: (x = 6, y = 1, z = 0)
+
+![](./images/Autos.png)
+
+### Part 2: WebGL
+* WebGL Compatibility
+
+![](./images/WebGL.png)
+
+### Part 3: DXR Compatibility
+* Modified Trangle (DXR Support)
+
+![](./images/DXR.png)

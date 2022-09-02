@@ -1,0 +1,26 @@
+^D:\UPENN\CIS565\HOMEWORKS\HW0\PROJECT0-GETTING-STARTED\CUDA-GETTING-STARTED\SRC\KERNEL.CU
+setlocal
+cd D:\upenn\CIS565\homeworks\hw0\Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programs\Cmake\bin\cmake.exe -E make_directory D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programs\Cmake\bin\cmake.exe -D verbose:BOOL=ON -D "CCBIN:PATH=D:\Programs\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -D build_configuration:STRING=Release -D generated_file:STRING=D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Release/cis565_getting_started_generated_kernel.cu.obj -D generated_cubin_file:STRING=D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Release/cis565_getting_started_generated_kernel.cu.obj.cubin.txt -P D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\UPENN\CIS565\HOMEWORKS\HW0\PROJECT0-GETTING-STARTED\CUDA-GETTING-STARTED\CMAKELISTS.TXT
+setlocal
+D:\Programs\Cmake\bin\cmake.exe -SD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/cuda-getting-started -BD:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build --check-stamp-file D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

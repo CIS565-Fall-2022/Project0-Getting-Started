@@ -1,0 +1,3 @@
+D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir
+D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/CMakeFiles/ALL_BUILD.dir
+D:/upenn/CIS565/homeworks/hw0/Project0-Getting-Started/build/CMakeFiles/ZERO_CHECK.dir

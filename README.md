@@ -15,17 +15,17 @@ Project 0 Getting Started
 
 ![CUDA Test Image](images/Hanlin-CUDATest.JPG)
 
-## Nsight:
+#### Nsight:
 
 ![Nsight Test Image:](images/Nsight.JPG)
 
-## WebGL:
+#### WebGL:
 
 ![WebGL Test Image](images/webGL.JPG)
 
-##DXR Support:
+#### DXR Support:
 
-*This part is done by using computers in SIGLAB
+* This part is done by using computers in SIGLAB
 
 ![DXR Test Result](images/Capture.PNG)
 Include screenshots, analysis, etc. (Remember, this is public, so don't put

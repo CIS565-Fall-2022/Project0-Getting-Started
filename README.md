@@ -6,7 +6,7 @@ Project 0 Getting Started
 * Hanlin Sun
   * [LinkedIn](https://www.linkedin.com/in/hanlin-sun-7162941a5/)
   * [personal website](https://hanlinsun.github.io/), 
-  * Tested on: Windows 10, i7-8750H @ 2.22GHz 22GB, NVIDIA Quadro P3200
+  * Tested on: Windows 10, i7-8750H @ 2.21GHz 32GB, NVIDIA Quadro P3200
 
 ### README
 * GPU : NVIDIA Quadro P3200

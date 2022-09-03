@@ -13,6 +13,7 @@
 #include "D3D12RaytracingHelloWorld.h"
 #include "DirectXRaytracingHelper.h"
 #include "CompiledShaders\Raytracing.hlsl.h"
+//#include "RaytracingHlslCompat.h"
 
 using namespace std;
 using namespace DX;

@@ -93,6 +93,6 @@
 
 #define USE_PIX_MARKERS 1
 #if USE_PIX_MARKERS
-#include "..\..\..\packages\WinPixEventRuntime.1.0.180612001\Include\WinPixEventRuntime\pix3.h"
+#include "pix3.h"
 static const UINT FallbackPixColor = PIX_COLOR(10, 10, 255);
 #endif

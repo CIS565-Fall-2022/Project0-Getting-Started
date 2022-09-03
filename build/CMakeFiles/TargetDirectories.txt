@@ -1,0 +1,3 @@
+C:/Users/11030/Desktop/CIS565Project0/build/CMakeFiles/cis565_getting_started.dir
+C:/Users/11030/Desktop/CIS565Project0/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/11030/Desktop/CIS565Project0/build/CMakeFiles/ZERO_CHECK.dir

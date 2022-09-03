@@ -9,12 +9,12 @@ Project 0 Getting Started
 
 ### Results
 
-![](cuda_image.PNG)
+![](images/cuda_image.PNG)
 
-![](nsight_profiler_image.PNG)
+![](images/nsight_profiler_image.png)
 
-![](nsight_debugger_image.PNG)
+![](images/nsight_debugger_image.png)
 
-![](webgl_image.PNG)
+![](images/webgl_image.PNG)
 
-![](dxr_image.PNG)
+![](images/dxr_image.PNG)

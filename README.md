@@ -3,12 +3,20 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Shutong Wu 
+  * LinkedIn: https://www.linkedin.com/in/shutong-wu-214043172/ 
+* Tested on: Windows 10, i7-10700K CPU @ 3.80GHz, RTX3080, SM8.6, Personal Computer 
 
-### (TODO: Your README)
+Screenshots: 
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+![](images/Screenshot1.png) 
 
+![](images/Screenshot2.png) 
+
+![](images/Screenshot3.png) 
+
+![](images/Screenshot4.png) 
+
+![](images/Screenshot5.png) 
+
+![](images/Screenshot6.png) 

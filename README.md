@@ -9,14 +9,14 @@ Project 0 Getting Started
 
 Screenshots: 
 
-![](images/Screenshot1.png) 
+![](images/ScreenShot1.PNG) 
 
-![](images/Screenshot2.png) 
+![](images/ScreenShot2.PNG) 
 
-![](images/Screenshot3.png) 
+![](images/ScreenShot3.PNG) 
 
-![](images/Screenshot4.png) 
+![](images/ScreenShot4.PNG) 
 
-![](images/Screenshot5.png) 
+![](images/ScreenShot5.PNG) 
 
-![](images/Screenshot6.png) 
+![](images/ScreenShot6.PNG) 

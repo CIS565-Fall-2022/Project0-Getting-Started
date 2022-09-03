@@ -3,12 +3,19 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Haoquan Liang
+  * [LinkedIn](https://www.linkedin.com/in/leohaoquanliang/)
+* Tested on: Windows 10, Ryzen 7 5800X 8 Core 3.80 GHz, NVIDIA GeForce RTX 3080 Ti 12 GB
 
-### (TODO: Your README)
-
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
-
+# Screenshots
+![Part 3.1.1: Testing CUDA](images/3-1-1.png)
+## Part 3.1.2: Analyze Performance
+![Part 3.1.2: Analyze Performance](images/3-1-2.png)
+## Part 3.1.3: NSight Debugging
+![Part 3.1.3: NSight Debugging](images/3-1-3.png)
+## Part 3.2: WebGL Support
+![Part 3.2: WebGL Support 1](images/3-2-1.png)
+![Part 3.2: WebGL Support 2](images/3-2-2.png)
+![Part 3.2: WebGL Support 3](images/3-2-3.png)
+## Part 3.3: DXR Support
+![Part 3.3: DXR Support](images/3-3.png)

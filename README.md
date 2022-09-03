@@ -9,12 +9,21 @@ Project 0 Getting Started
 
 ### Results
 
+Part 3.1.1 CUDA results:
+
 ![](images/cuda_image.PNG)
+
+Part 3.1.2 Nsight Profiler results:
 
 ![](images/nsight_profiler_image.png)
 
+Part 3.1.3 Nsight Debugger results:
+
 ![](images/nsight_debugger_image.png)
+
+Part 3.2 WebGL results:
 
 ![](images/webgl_image.PNG)
 
+Part 3.3 DXR results:
 ![](images/dxr_image.PNG)

@@ -3,12 +3,15 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Name: Jason Xie
+  * [LinkedIn](https://www.linkedin.com/in/jia-chun-xie/)
+  * [Personal Website](jchunx.github.io)
+* Tested on: Ubuntu 20.04, i5-8400 @ 2.80GHz 16GB, RTX 3060Ti
 
-### (TODO: Your README)
+### Part 3.1: CUDA
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+GPU Compute Capability: 8.6
 
+#### Part 3.1.1: Modify the CUDA Project and Take a Screenshot
+
+![](images/3_1_1_proj_mod.png)

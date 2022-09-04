@@ -14,14 +14,14 @@ anything here that you don't want to share with the world.) -->
 
 ---
 
-### Compute Capability of CUDA-compatible GPU
+## Compute Capability of CUDA-compatible GPU
 
 * GPU: GeForce RTX 3080	
 * Compute Capability: 8.6
 
 ---
 
-### CMake modification
+## CMake modification
 
 Changed line 97 of `CUDAComputesList.cmake` from
 
@@ -39,8 +39,24 @@ FOREACH(VER 32 35 37 50 52 53 60 61 62 70 72 75 80 86)
 
 ---
 
-### CUDA
+## Part 3.1: CUDA
+
+### Part 3.1.1 Modify the CUDA Project and Take a Screenshot
 
 ![](images/3-1-1.png)
 
+### Part 3.1.2: Analyze
+
 ![](images/3-1-2.png)
+
+### Part 3.1.3: Nsight Debugging
+
+![](images/3-1-3.png)
+
+## Part 3.2: WebGL
+
+![](images/3-2.png)
+
+## Part 3.3: DXR
+
+![](images/3-3.png)

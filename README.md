@@ -3,12 +3,25 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Yiyang Chen
+  * [LinkedIn](https://www.linkedin.com/in/yiyang-chen-6a7641210/), [personal website](https://cyy0915.github.io/)
+* Tested on: Windows 10, i5-8700k @ 3.7GHz, GTX 1080, personal computer
 
-### (TODO: Your README)
+## My Readme
+### 3.1
+Compute capability of my GPU GTX 1080: 6.1
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+### 3.1.1
+![](images/3.1.1.png)
 
+### 3.1.2
+![](images/3.1.2.png)
+
+### 3.1.3
+![](images/3.1.3.png)
+
+### 3.2
+![](images/3.2.png)
+
+### 3.3
+![](images/3.3.png)

@@ -1,0 +1,3 @@
+/home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/rebuild_cache.dir
+/home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/edit_cache.dir
+/home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir

@@ -1,0 +1,130 @@
+18:30:34 **** Build of project eclipse ****
+/usr/bin/make -j6 all 
+/usr/bin/cmake -S/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started -B/home/jasonx/Dropbox/repos/cis5650/project0/eclipse --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/jasonx/Dropbox/repos/cis5650/project0/eclipse'
+/usr/bin/make -f CMakeFiles/cis565_getting_started.dir/build.make CMakeFiles/cis565_getting_started.dir/depend
+make[2]: Entering directory '/home/jasonx/Dropbox/repos/cis5650/project0/eclipse'
+[ 25%] Building NVCC (Device) object CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o
+cd /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src && /usr/bin/cmake -E make_directory /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/.
+cd /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src && /usr/bin/cmake -D verbose:BOOL=ON -D build_configuration:STRING=Debug -D generated_file:STRING=/home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/./cis565_getting_started_generated_kernel.cu.o -D generated_cubin_file:STRING=/home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/./cis565_getting_started_generated_kernel.cu.o.cubin.txt -P /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.Debug.cmake
+-- Removing /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/./cis565_getting_started_generated_kernel.cu.o
+/usr/bin/cmake -E remove /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/./cis565_getting_started_generated_kernel.cu.o
+-- Generating dependency file: /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.NVCC-depend
+/usr/local/cuda/bin/nvcc -M -D__CUDACC__ /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/kernel.cu -o /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.NVCC-depend -ccbin /usr/bin/cc -m64 -Xcompiler ,\"-g\" -g -G -DNVCC -I/usr/local/cuda/include -I/usr/local/include
+-- Generating temporary cmake readable file: /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.depend.tmp
+/usr/bin/cmake -D input_file:FILEPATH=/home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.NVCC-depend -D output_file:FILEPATH=/home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.depend.tmp -D verbose=ON -P /usr/share/cmake-3.16/Modules/FindCUDA/make2cmake.cmake
+-- Copy if different /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.depend.tmp to /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.depend
+/usr/bin/cmake -E copy_if_different /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.depend.tmp /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.depend
+-- Removing /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.depend.tmp and /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.NVCC-depend
+/usr/bin/cmake -E remove /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.depend.tmp /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o.NVCC-depend
+-- Generating /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/./cis565_getting_started_generated_kernel.cu.o
+/usr/local/cuda/bin/nvcc /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/kernel.cu -c -o /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/./cis565_getting_started_generated_kernel.cu.o -ccbin /usr/bin/cc -m64 -Xcompiler ,\"-g\" -g -G -DNVCC -I/usr/local/cuda/include -I/usr/local/include
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/kernel.cu: In function ‘void kernelVersionVis(uchar4*, int, int, int, int)’:
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/kernel.cu:105:23: warning: ‘cudaError_t cudaThreadSynchronize()’ is deprecated [-Wdeprecated-declarations]
+  105 |     cudaThreadSynchronize();
+      |                       ^
+/usr/local/cuda/include/cuda_runtime_api.h:1057:46: note: declared here
+ 1057 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaThreadSynchronize(void);
+      |                                              ^~~~~~~~~~~~~~~~~~~~~
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/kernel.cu:105:23: warning: ‘cudaError_t cudaThreadSynchronize()’ is deprecated [-Wdeprecated-declarations]
+  105 |     cudaThreadSynchronize();
+      |                       ^
+/usr/local/cuda/include/cuda_runtime_api.h:1057:46: note: declared here
+ 1057 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaThreadSynchronize(void);
+      |                                              ^~~~~~~~~~~~~~~~~~~~~
+Generated /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/./cis565_getting_started_generated_kernel.cu.o successfully.
+cd /home/jasonx/Dropbox/repos/cis5650/project0/eclipse && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started /home/jasonx/Dropbox/repos/cis5650/project0/eclipse /home/jasonx/Dropbox/repos/cis5650/project0/eclipse /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/DependInfo.cmake --color=
+Scanning dependencies of target cis565_getting_started
+make[2]: Leaving directory '/home/jasonx/Dropbox/repos/cis5650/project0/eclipse'
+/usr/bin/make -f CMakeFiles/cis565_getting_started.dir/build.make CMakeFiles/cis565_getting_started.dir/build
+make[2]: Entering directory '/home/jasonx/Dropbox/repos/cis5650/project0/eclipse'
+[ 50%] Building CXX object CMakeFiles/cis565_getting_started.dir/src/glslUtility.cpp.o
+/usr/bin/c++   -I/usr/local/cuda/include  -g   -std=gnu++11 -o CMakeFiles/cis565_getting_started.dir/src/glslUtility.cpp.o -c /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/glslUtility.cpp
+[ 75%] Building CXX object CMakeFiles/cis565_getting_started.dir/src/main.cpp.o
+/usr/bin/c++   -I/usr/local/cuda/include  -g   -std=gnu++11 -o CMakeFiles/cis565_getting_started.dir/src/main.cpp.o -c /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp: In function ‘void initPBO(GLuint*)’:
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:94:40: warning: ‘cudaError_t cudaGLRegisterBufferObject(GLuint)’ is deprecated [-Wdeprecated-declarations]
+   94 |         cudaGLRegisterBufferObject(*pbo);
+      |                                        ^
+In file included from /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:6:
+/usr/local/cuda/include/cuda_gl_interop.h:327:57: note: declared here
+  327 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaGLRegisterBufferObject(GLuint bufObj);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:94:40: warning: ‘cudaError_t cudaGLRegisterBufferObject(GLuint)’ is deprecated [-Wdeprecated-declarations]
+   94 |         cudaGLRegisterBufferObject(*pbo);
+      |                                        ^
+In file included from /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:6:
+/usr/local/cuda/include/cuda_gl_interop.h:327:57: note: declared here
+  327 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaGLRegisterBufferObject(GLuint bufObj);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp: In function ‘void initCUDA()’:
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:135:24: warning: ‘cudaError_t cudaGLSetGLDevice(int)’ is deprecated [-Wdeprecated-declarations]
+  135 |     cudaGLSetGLDevice(0);
+      |                        ^
+In file included from /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:6:
+/usr/local/cuda/include/cuda_gl_interop.h:305:57: note: declared here
+  305 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaGLSetGLDevice(int device);
+      |                                                         ^~~~~~~~~~~~~~~~~
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:135:24: warning: ‘cudaError_t cudaGLSetGLDevice(int)’ is deprecated [-Wdeprecated-declarations]
+  135 |     cudaGLSetGLDevice(0);
+      |                        ^
+In file included from /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:6:
+/usr/local/cuda/include/cuda_gl_interop.h:305:57: note: declared here
+  305 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaGLSetGLDevice(int device);
+      |                                                         ^~~~~~~~~~~~~~~~~
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp: In function ‘void runCUDA()’:
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:169:47: warning: ‘cudaError_t cudaGLMapBufferObject(void**, GLuint)’ is deprecated [-Wdeprecated-declarations]
+  169 |     cudaGLMapBufferObject((void**)&dptr, m_pbo);
+      |                                               ^
+In file included from /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:6:
+/usr/local/cuda/include/cuda_gl_interop.h:356:57: note: declared here
+  356 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaGLMapBufferObject(void **devPtr, GLuint bufObj);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:169:47: warning: ‘cudaError_t cudaGLMapBufferObject(void**, GLuint)’ is deprecated [-Wdeprecated-declarations]
+  169 |     cudaGLMapBufferObject((void**)&dptr, m_pbo);
+      |                                               ^
+In file included from /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:6:
+/usr/local/cuda/include/cuda_gl_interop.h:356:57: note: declared here
+  356 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaGLMapBufferObject(void **devPtr, GLuint bufObj);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:175:34: warning: ‘cudaError_t cudaGLUnmapBufferObject(GLuint)’ is deprecated [-Wdeprecated-declarations]
+  175 |     cudaGLUnmapBufferObject(m_pbo);
+      |                                  ^
+In file included from /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:6:
+/usr/local/cuda/include/cuda_gl_interop.h:382:57: note: declared here
+  382 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaGLUnmapBufferObject(GLuint bufObj);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:175:34: warning: ‘cudaError_t cudaGLUnmapBufferObject(GLuint)’ is deprecated [-Wdeprecated-declarations]
+  175 |     cudaGLUnmapBufferObject(m_pbo);
+      |                                  ^
+In file included from /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:6:
+/usr/local/cuda/include/cuda_gl_interop.h:382:57: note: declared here
+  382 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaGLUnmapBufferObject(GLuint bufObj);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp: In function ‘void deletePBO(GLuint*)’:
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:224:42: warning: ‘cudaError_t cudaGLUnregisterBufferObject(GLuint)’ is deprecated [-Wdeprecated-declarations]
+  224 |         cudaGLUnregisterBufferObject(*pbo);
+      |                                          ^
+In file included from /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:6:
+/usr/local/cuda/include/cuda_gl_interop.h:404:57: note: declared here
+  404 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaGLUnregisterBufferObject(GLuint bufObj);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:224:42: warning: ‘cudaError_t cudaGLUnregisterBufferObject(GLuint)’ is deprecated [-Wdeprecated-declarations]
+  224 |         cudaGLUnregisterBufferObject(*pbo);
+      |                                          ^
+In file included from /home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp:6:
+/usr/local/cuda/include/cuda_gl_interop.h:404:57: note: declared here
+  404 | extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaGLUnregisterBufferObject(GLuint bufObj);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[100%] Linking CXX executable bin/cis565_getting_started
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cis565_getting_started.dir/link.txt --verbose=1
+/usr/bin/c++  -g  -rdynamic CMakeFiles/cis565_getting_started.dir/src/glslUtility.cpp.o CMakeFiles/cis565_getting_started.dir/src/main.cpp.o CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o  -o bin/cis565_getting_started  /usr/local/cuda/lib64/libcudart_static.a -lpthread -ldl -lrt /usr/local/lib/libglfw3.a -lGL -lGLU -lGLEW -lGL -lGLU -lGLEW -lrt -lm -ldl -lX11 -lpthread 
+make[2]: Leaving directory '/home/jasonx/Dropbox/repos/cis5650/project0/eclipse'
+[100%] Built target cis565_getting_started
+make[1]: Leaving directory '/home/jasonx/Dropbox/repos/cis5650/project0/eclipse'
+/usr/bin/cmake -E cmake_progress_start /home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles 0
+
+18:30:36 Build Finished (took 1s.980ms)
+

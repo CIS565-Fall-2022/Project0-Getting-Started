@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>cis565_getting_started-Debug@eclipse</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j6</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/jasonx/Dropbox/repos/cis5650/project0/eclipse</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/jasonx/Dropbox/repos/cis5650/project0/eclipse</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Source directory]</name>
+			<type>2</type>
+			<location>/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started</location>
+		</link>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/cis565_getting_started</name>
+			<type>2</type>
+			<location>/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Headers</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Sources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Headers/glslUtility.hpp</name>
+			<type>1</type>
+			<location>/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/glslUtility.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Headers/kernel.h</name>
+			<type>1</type>
+			<location>/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/kernel.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Headers/main.hpp</name>
+			<type>1</type>
+			<location>/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Object Files/cis565_getting_started_generated_kernel.cu.o</name>
+			<type>1</type>
+			<location>/home/jasonx/Dropbox/repos/cis5650/project0/eclipse/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Sources/glslUtility.cpp</name>
+			<type>1</type>
+			<location>/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/glslUtility.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Sources/kernel.cu</name>
+			<type>1</type>
+			<location>/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/kernel.cu</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] cis565_getting_started/Sources/main.cpp</name>
+			<type>1</type>
+			<location>/home/jasonx/Dropbox/repos/cis5650/project0/cuda-getting-started/src/main.cpp</location>
+		</link>
+	</linkedResources>
+</projectDescription>

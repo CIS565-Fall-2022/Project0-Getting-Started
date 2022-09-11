@@ -1,0 +1,3 @@
+C:/Fi/Program/C++/CIS565/CIS565-Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir
+C:/Fi/Program/C++/CIS565/CIS565-Project0-Getting-Started/build/CMakeFiles/ALL_BUILD.dir
+C:/Fi/Program/C++/CIS565/CIS565-Project0-Getting-Started/build/CMakeFiles/ZERO_CHECK.dir

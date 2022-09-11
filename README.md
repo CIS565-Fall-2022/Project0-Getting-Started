@@ -4,7 +4,7 @@ Project 0 Getting Started
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
   
 XiaoyuDu  
-LinkedIn: https://www.linkedin.com/in/xiaoyu-du-67261915b/
+LinkedIn: https://www.linkedin.com/in/xiaoyu-du-67261915b/  
 test running on Personal PC
   
   

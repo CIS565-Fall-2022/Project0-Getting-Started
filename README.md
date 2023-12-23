@@ -4,7 +4,7 @@ Project 0 Getting Started
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
 * Keyan Zhai
-  * [LinkedIn](https://www.linkedin.com/in/keyanzhai), [personal website](https://keyanzhai.cool/)
+  * [LinkedIn](https://www.linkedin.com/in/keyanzhai), [personal website](https://keyanzhai.github.io/)
 * Tested on: Windows 10 Pro, AMD Ryzen 7 5800X 8-Core Processor 3.80 GHz, RTX 3080 10GB (personal)
 
 <!-- ### README

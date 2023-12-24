@@ -69,7 +69,7 @@ void MyRaygenShader()
 [shader("closesthit")]
 void MyClosestHitShader(inout RayPayload payload, in MyAttributes attr)
 {
-    float3 barycentrics = float3(0, 0, 0.8);
+    float3 barycentrics = float3(0, 0.8, 0);
     payload.color = float4(barycentrics, 1);
 }
 
